@@ -1,0 +1,116 @@
+frontend.404.button: Hoofdmenu
+frontend.404.message: Klik in ieder geval op de knop hieronder om terug te keren
+  naar het hoofdmenu, en kun je ons vertellen hoe je hier terecht bent gekomen?
+frontend.404.title: Waarom zijn we hier... alleen om te lijden?
+frontend.dialog.not_supported: '{0} wordt niet ondersteund in een dialoog.'
+frontend.disclaimer.description.line1: ETS2LA is niet verantwoordelijk voor 
+  eventuele negatieve gevolgen door het gebruik van de functies van deze 
+  software. Gebruik de software op eigen risico.
+frontend.disclaimer.description.line2: Het gebruik van ETS2LA in TruckersMP is 
+  toegestaan door TMP staff, maar je bent zelf verantwoordelijk voor eventuele 
+  bans of waarschuwingen veroorzaakt door het gebruik van deze software.
+frontend.disclaimer.dontshowagain: Niet meer tonen
+frontend.disclaimer.dontshowagain.toast: Je ziet dit niet meer tot de volgende 
+  update.
+frontend.disclaimer.ok: Ik begrijp het
+frontend.disclaimer.title: Disclaimer!
+frontend.feedback: Feedback
+frontend.feedback.description: Geef alstublieft feedback. Dit wordt direct 
+  verzonden naar een privékanaal voor ontwikkelaars.
+frontend.feedback.disclaimer: Deel geen persoonlijke informatie.
+frontend.feedback.empty: Feedback is leeg, geef alstublieft feedback.
+frontend.feedback.error_sending: Er is een fout opgetreden bij het verzenden van
+  de feedback, probeer het later opnieuw.
+frontend.feedback.sending: Feedback verzenden...
+frontend.feedback.sent: Feedback verzonden!
+frontend.feedback.submit: Verzenden
+frontend.hello: Hallo, {0}!
+frontend.immediate.checking_updates: Controleren op updates...
+frontend.immediate.close: Sluiten
+frontend.immediate.connected: Verbonden met de ETS2LA backend
+frontend.immediate.disable_stay_on_top: Altijd bovenop uitschakelen
+frontend.immediate.disable_transparent: Transparantie uitschakelen
+frontend.immediate.disconnected: Verbinding met ETS2LA backend verbroken
+frontend.immediate.enable_stay_on_top: Altijd bovenop inschakelen
+frontend.immediate.enable_transparent: Transparantie inschakelen
+frontend.immediate.minimize: Minimaliseren
+frontend.immediate.no_updates: Geen updates beschikbaar.
+frontend.immediate.socket_connected: Verbonden
+frontend.immediate.socket_disconnected: Verbinding verbroken, ververs de pagina.
+frontend.immediate.up_to_date: Up-to-date
+frontend.immediate.update_available: Je bent {0} update(s) achter
+frontend.immediate.update_check_error: 'Fout: {0}'
+frontend.logged_out: Uitgelogd.
+frontend.login: Login
+frontend.login.already_logged_in: 'LET OP: Je bent al ingelogd, je kunt dit overschrijven
+  door opnieuw in te loggen.'
+frontend.login.disclaimer: We ondersteunen momenteel alleen inloggen via 
+  Discord, zodat we geen gevoelige informatie zoals wachtwoorden hoeven op te 
+  slaan.
+frontend.login.discord: Inloggen met Discord
+frontend.login.privacy_policy: Privacybeleid
+frontend.login.successful: Succesvol ingelogd!
+frontend.login.successful_description: Log uit via het contextmenu onder je 
+  gebruikersnaam linksonder.
+frontend.plugins.authors: Auteurs
+frontend.plugins.disabled_all_plugins: Alle plugins uitgeschakeld
+frontend.plugins.disabled_plugin: '{0} uitgeschakeld'
+frontend.plugins.disabling_all_plugins: Alle plugins uitschakelen...
+frontend.plugins.disabling_plugin: Bezig met uitschakelen van {0}
+frontend.plugins.enabled_all_plugins: Alle plugins ingeschakeld
+frontend.plugins.enabled_plugin: '{0} ingeschakeld'
+frontend.plugins.enabling_all_plugins: Alle plugins inschakelen...
+frontend.plugins.enabling_plugin: Bezig met inschakelen van {0}
+frontend.plugins.end_list: Dit is het einde van de lijst
+frontend.plugins.error_disabling_plugin: Fout bij uitschakelen van {0}
+frontend.plugins.error_enabling_plugin: Fout bij inschakelen van {0}
+frontend.plugins.hidden: '{0} plugin(s) verborgen'
+frontend.plugins.name: Naam
+frontend.plugins.select_authors: Zoek Auteurs
+frontend.plugins.select_tags: Zoek Tags
+frontend.plugins.selected_authors: '{0} auteur(s) geselecteerd'
+frontend.plugins.selected_tags: '{0} tag(s) geselecteerd'
+frontend.plugins.tags: Tags
+frontend.settings: Instellingen
+frontend.settings.array.add: Element toevoegen
+frontend.settings.array.added_element: Array element toegevoegd
+frontend.settings.array.remove: Verwijderen
+frontend.settings.array.removed_element: Array element verwijderd
+frontend.settings.array.updated_element: Array element bijgewerkt
+frontend.settings.backend_no_data: Geen gegevens ontvangen van de backend.
+frontend.settings.boolean.updated: Instelling bijgewerkt
+frontend.settings.controls: Besturingen
+frontend.settings.data_missing: Plugin gegevens zijn ongeldig of ontbreken.
+frontend.settings.enum.no_enum: Geen enum waarden opgegeven.
+frontend.settings.enum.updated: Instelling bijgewerkt
+frontend.settings.error: 'Fout: {0}'
+frontend.settings.global: Globaal
+frontend.settings.global_info: Deze lijst bevat alleen plugins die het globale 
+  instellingenbestand ondersteunen.
+frontend.settings.needs_restart: Plugin moet opnieuw worden gestart om 
+  instellingen bij te werken.
+frontend.settings.number.updated: Instelling bijgewerkt
+frontend.settings.restarted: Herstart succesvol
+frontend.settings.string.updated: Instelling bijgewerkt
+frontend.settings.unknown_data_type: 'Onbekend gegevenstype: {0}'
+frontend.sidebar.account: Account
+frontend.sidebar.anonymous: Anoniem
+frontend.sidebar.chat: Chat
+frontend.sidebar.dashboard: Dashboard
+frontend.sidebar.help: Help
+frontend.sidebar.main: Hoofdmenu
+frontend.sidebar.manager: Beheer
+frontend.sidebar.performance: Prestaties
+frontend.sidebar.plugins: Plugins
+frontend.sidebar.settings: Instellingen
+frontend.sidebar.sign_in: Inloggen
+frontend.sidebar.sign_out: Uitloggen
+frontend.sidebar.sign_out_description: Je kunt op elk moment weer inloggen.
+frontend.sidebar.sign_out_successful: Succesvol uitgelogd.
+frontend.sidebar.updates_available: Updates Beschikbaar
+frontend.sidebar.visualization: Visualisatie
+frontend.sidebar.wiki: Wiki
+frontend.states.complete: Klaar!
+frontend.theme.dark: Donker
+frontend.theme.light: Licht
+frontend.support_development: Ondersteuning Ontwikkeling
