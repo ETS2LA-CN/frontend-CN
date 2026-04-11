@@ -65,7 +65,7 @@ export default function Visualization() {
     let visualization = visualizationOptions.useMirror ? visualization_mirror : visualization_link;
 
     if (visualizationOptions.isCustom) {
-        visualization = `https://${visualizationOptions.customUrl || "subdomain"}.ets2la.cn?theme=${activeTheme}`;
+        visualization = `https://${visualizationOptions.customUrl || "subdomain"}.visualization.ets2la.cn?theme=${activeTheme}`;
     }
 
     useEffect(() => {
@@ -138,7 +138,7 @@ export default function Visualization() {
                                                 value={visualizationOptions.customUrl} 
                                                 onChange={(e) => setVisualizationOptions({ ...visualizationOptions, customUrl: e.target.value })}
                                             />
-                                            <span className="text-xs text-muted-foreground">.ets2la.cn</span>
+                                            <span className="text-xs text-muted-foreground">.visualization.ets2la.cn</span>
                                         </div>
                                     )}
                                 </div>
