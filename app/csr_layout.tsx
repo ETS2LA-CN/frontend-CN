@@ -20,6 +20,7 @@ import { GetCurrentLanguage, Fallback } from "@/apis/backend";
 import { Fireworks } from "@fireworks-js/react";
 import { GetSettingByKey } from "@/apis/settings";
 import { Disclaimer } from "@/components/disclaimer";
+import { MirrorNotice } from "@/components/mirror-notice";
 import AccountHandler from "@/apis/account";
 import Snowfall from "react-snowfall"
 import useSWR from "swr";
@@ -27,7 +28,7 @@ import { motion } from "framer-motion";
 import Loader from "@/components/loader";
 import { AnimatePresence } from "framer-motion";
 import { UIProvider } from "@/apis/ui_sockets";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 export default function CSRLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
     const { data: language, isLoading: loadingLanguage } = useSWR("language", GetCurrentLanguage, { refreshInterval: 2000 });
@@ -40,6 +41,7 @@ export default function CSRLayout({ children, }: Readonly<{ children: React.Reac
     
     const isMobile = useIsMobile();
     const router = useRouter();
+    const pathname = usePathname();
 
     useEffect(() => {
         if (language) {
@@ -141,6 +143,7 @@ export default function CSRLayout({ children, }: Readonly<{ children: React.Reac
                                 <motion.div className="w-full h-full flex flex-col" key="main" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.6 }}>
                                     <UIProvider>
                                         <Disclaimer closed_callback={() => {}} />
+                                        {pathname === "/about" && <MirrorNotice />}
                                         <ProgressBarProvider>
                                             <Toaster position={"bottom-center"} toastOptions={{
                                                 unstyled: true,
